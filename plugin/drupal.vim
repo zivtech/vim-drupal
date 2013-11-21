@@ -21,11 +21,6 @@ if has("autocmd")
 endif
 syntax on
 
-"Custom key mapping
-map <S-u> :redo<cr>
-map <C-n> :tabn<cr>
-map <C-p> :tabp<cr>
-map <leader>p :!php -l "%:p"<cr>
 
 " Highlight long comments and trailing whitespace.
 highlight ExtraWhitespace ctermbg=red guibg=red
